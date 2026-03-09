@@ -23,4 +23,17 @@ streamlit run app.py
 Python 3.9+
 TensorFlow/Keras → treino e avaliação da rede neural
 Streamlit → interface web interativa
-# tensorflow
+tensorflow 
+
+# Digit Classification with TensorFlow + Streamlit
+This project uses TensorFlow/Keras to train a simple neural network on the MNIST dataset.
+The Streamlit interface allows the user to select a digit and see the model’s prediction in real time.
+
+# Features
+Training a neural network with TensorFlow/Keras.
+Displaying the model’s accuracy.
+Interactive interface with Streamlit.
+Prediction of digits from random images in the dataset.
+
+# Dependencies
+The required libraries are listed in requirements.txt:

@@ -35,6 +35,7 @@ digit = st.number_input("Número desejado", min_value=0, max_value=9, step=1)
 
 if st.button("Gerar previsão"):
 
+
     idx = np.where(np.argmax(y_test, axis=1) == digit)[0]
     random_idx = np.random.choice(idx)
     image = x_test[random_idx]
