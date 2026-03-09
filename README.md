@@ -9,14 +9,7 @@ A interface em **Streamlit** permite que o usuário escolha um dígito e veja a 
 - Interface interativa com Streamlit.  
 - Previsão de dígitos em imagens aleatórias do dataset.  
 
-# Dependências
-As bibliotecas necessárias estão listadas em `requirements.txt`:
-```txt
-streamlit
-tensorflow
-numpy
-
-Execute no terminal : 
+# Execute no terminal : 
 streamlit run app.py
 
 # Tecnologias Utilizadas 
